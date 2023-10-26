@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,400;0,500;0,600;0,700;1,200;1,300&family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Guess My Number</h1>
+      <p class="between">(Between 1 to 20)</p>
+      <button class="btn again">Again!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Check here!!</button>
+      </section>
+      <section class="right">
+        <p class="message">Start guessing...!!</p>
+        <p class="label-between"></p>
+        <p class="label-score">Score: <span class="score"> 20</span></p>
+        <p class="label-highscore">
+          High Score: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
